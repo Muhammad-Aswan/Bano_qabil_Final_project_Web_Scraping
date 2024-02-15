@@ -55,6 +55,10 @@ with open("Supreme.csv", "a", newline="", encoding="utf-8") as csv_file:
                     time = div.find("span", class_="c4ad15ab f2dd4da1").text.strip()
                 except AttributeError:
                     time = ""
+
+                #ye apko batayega ke app ke kitne pages hogaye hain print(i) 
+                print(i) 
+              
                 # Write the extracted information to the CSV file
                 writer.writerow([title, location, price, time])
 
