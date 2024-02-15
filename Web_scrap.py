@@ -23,7 +23,7 @@ with open("Supreme.csv", "a", newline="", encoding="utf-8") as csv_file:
     ]
 
     for url in urls:
-        for i in range(1, 50):
+        for i in range(1, 75):
             # Send a GET request to the URL
             full_url = url + str(i)
             response = requests.get(full_url)
