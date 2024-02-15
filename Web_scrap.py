@@ -9,7 +9,7 @@ import csv
                 #  from olx.com
 
 # Open the CSV file in append mode
-with open("Supreme.csv", "a", newline="", encoding="utf-8") as csv_file:
+with open("Aswan.csv", "a", newline="", encoding="utf-8") as csv_file:
     writer = csv.writer(csv_file)
     # Write headers only once if the file is empty
     if csv_file.tell() == 0:
